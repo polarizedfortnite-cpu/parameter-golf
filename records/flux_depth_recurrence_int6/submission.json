@@ -1,0 +1,20 @@
+{
+  "name": "Flux",
+  "github_id": "fluxxrider",
+  "val_bpb": 1.2269,
+  "artifact_size_bytes": 15671310,
+  "model_params": 20354048,
+  "techniques": [
+    "depth_recurrence_4x3",
+    "swiglu_activation",
+    "int6_middle_layer_quantization",
+    "sliding_window_eval_stride64",
+    "fp16_tied_embeddings",
+    "train_seq_len_2048"
+  ],
+  "hardware": "4xH100 SXM (RunPod)",
+  "training_steps": 2337,
+  "training_time_seconds": 600,
+  "tokenizer": "sp1024",
+  "notes": "Non-record submission (4xH100). 8xH100 run pending compute grant."
+}
